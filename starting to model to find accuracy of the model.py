@@ -39,3 +39,18 @@ def main():
     print(classification_report(y_test, y_pred))
 if __name__ == "__main__":
     main()
+Accuracy of Logistic Regression model: 0.80
+
+Confusion Matrix:
+[[90 15]
+ [21 53]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.86      0.83       105
+           1       0.78      0.72      0.75        74
+
+    accuracy                           0.80       179
+   macro avg       0.80      0.79      0.79       179
+weighted avg       0.80      0.80      0.80       179
